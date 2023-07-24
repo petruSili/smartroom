@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C1E1E"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:visibility="visible"
+        tools:ignore="ExtraText"
+        tools:visibility="visible"
+        android:focusable="true">
+
+        <TextView
+            android:id="@+id/temperatureText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="32dp"
+            android:elegantTextHeight="false"
+            android:freezesText="false"
+            android:text="@string/temperature"
+            android:textAlignment="center"
+            android:textSize="96sp"
+            android:textStyle="bold"
+            app:autoSizeTextType="none"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tempSymbol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="°"
+            android:textAlignment="center"
+            android:textColor="#00BCD4"
+            android:textSize="60sp"
+            app:layout_constraintStart_toEndOf="@+id/temperatureText"
+            app:layout_constraintTop_toTopOf="@+id/temperatureText" />
+
+        <TextView
+            android:id="@+id/humidityText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="32dp"
+            android:text="@string/humidity"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/temperatureText" />
+
+        <TextView
+            android:id="@+id/humSymbol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="%"
+            android:textAlignment="center"
+            android:textColor="#00BCD4"
+            android:textSize="24sp"
+            app:layout_constraintStart_toEndOf="@+id/humidityText"
+            app:layout_constraintTop_toTopOf="@+id/humidityText" />
+
+        <TextView
+            android:id="@+id/MainLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:text="@string/switchText1"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/switchMainLight" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switchMainLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="126dp"
+            android:layout_marginEnd="32dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:textColorHighlight="#00BCD4"
+            android:textColorLink="#00BCD4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/humidityText" />
+
+        <TextView
+            android:id="@+id/DeskLamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:text="@string/switchText2"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/switchDeskLamp" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switchDeskLamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="32dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:textColorHighlight="#00BCD4"
+            android:textColorLink="#00BCD4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/switchMainLight" />
+
+        <SeekBar
+            android:id="@+id/intensityDeskLamp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/switchDeskLamp" />
+
+        <TextView
+            android:id="@+id/Fan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:text="@string/switchText3"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/switchArduinoFan" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switchArduinoFan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="32dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:textColorHighlight="#00BCD4"
+            android:textColorLink="#00BCD4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/intensityDeskLamp" />
+
+        <SeekBar
+            android:id="@+id/intensityArduinoFan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/switchArduinoFan" />
+
+
+        <TextView
+            android:id="@+id/AutoMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:text="@string/switchText4"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/switchAutoMode" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switchAutoMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="32dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:textColorHighlight="#00BCD4"
+            android:textColorLink="#00BCD4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/intensityArduinoFan" />
+        <TextView
+            android:id="@+id/Sleeping"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:text="@string/switchText5"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/switchSleeping" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switchSleeping"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="32dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:textColorHighlight="#00BCD4"
+            android:textColorLink="#00BCD4"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/switchAutoMode" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
