@@ -27,21 +27,23 @@
     <li><a href="#mobileapp">MobileApp</a></li>
   </ul>
 </details>
-<p align="center">
+<p>
   The system manages 3 points of light and the airflow in a room. It has two modes of operation: 
 </p> 
 <ul>
   <li>
     <p>
       Manual<br/>
-      you can interact with the devices by using the ControlBox, in fact touching the black metal plates turns the devices ON and OFF and the dial on top lets you select a device and set the desired intensity. The same can be done through the android app.
+      the user can interact with the devices by using the ControlBox, in fact touching the black metal plates turns the devices ON and OFF and the dial on top can be used to select a device and set its intensity(fan speed, light intensity). The same can be done through the android app.
     </p> 
   </li>
   <li>
     <p>
       Auto<br/>this mode is enabled by the user through the app. When enabled the controller manages the devices according to the scenario, sensor data and user defined settings. The following image shows the general flow control.
     </p>
-    <img align="center" src="Images/AutoMode1.jpg" alt="AutoMode1.jpg" width="600">
+    <div align="center">
+      <img src="Images/AutoMode1.jpg" alt="AutoMode1.jpg" width="600">
+    </div>
   </li>
 </ul>
 
