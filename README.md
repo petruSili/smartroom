@@ -3,7 +3,7 @@
   <img src="Images/SmartRoom.png" alt="Logo" height="160" >
   <h1 align="center">Smart Room</h1>
   <p align="center">
-  A fully local smart home system built with largely available hardware components. It is based on ESP and Arduino platforms. <br>
+  A fully local smart home system built with largely available hardware components. It is based on ESP and Arduino platforms.
   MQTT is used as the main communication protocol. 
   </p>
 </div>
@@ -39,8 +39,9 @@
   </li>
   <li>
     <p>
-      Auto<br/>this mode is enabled by the user through the app. When enabled the controller manages the devices according to the scenario, sensor data and in code configuration.    
+      Auto<br/>this mode is enabled by the user through the app. When enabled the controller manages the devices according to the scenario, sensor data and user defined settings. The following image shows the general flow control.
     </p>
+    <img align="center" src="Images/AutoMode1.jpg" alt="AutoMode1.jpg" width="600">
   </li>
 </ul>
 
