@@ -1,19 +1,12 @@
 <!-- PROJECT LOGO -->
-<br />
 <div align="center">
-  <a href="https://github.com/petruSili/smartroom">
-    <img src="Images/SmartRoom.png" alt="Logo" height="160" >
-  </a>
-
-<h3 align="center">Smart Room</h3>
-
+  <img src="Images/SmartRoom.png" alt="Logo" height="160" >
+  <h1 align="center">Smart Room</h1>
   <p align="center">
-    A fully local smart home system built with largely available hardware components based on Esp and Arduino platforms. <br>
-    MQTT is used as the main communication protocol.
+  A fully local smart home system built with largely available hardware components. It is based on ESP and Arduino platforms. <br>
+  MQTT is used as the main communication protocol. 
   </p>
 </div>
-<br />
-<br />
 <br />
 <br />
 <br />
@@ -35,8 +28,21 @@
   </ul>
 </details>
 <p align="center">
-  The purpose of this project is light and airflow control of a room the management of 3 devices through manual or automatic control. 
+  The system manages 3 points of light and the airflow in a room. It has two modes of operation: 
 </p> 
+<ul>
+  <li>
+    <p>
+      Manual<br/>
+      you can interact with the devices by using the ControlBox, in fact touching the black metal plates turns the devices ON and OFF and the dial on top lets you select a device and set the desired intensity. The same can be done through the android app.
+    </p> 
+  </li>
+  <li>
+    <p>
+      Auto<br/>this mode is enabled by the user through the app. When enabled the controller manages the devices according to the scenario, sensor data and in code configuration.    
+    </p>
+  </li>
+</ul>
 
 <!-- CONTROLBOX -->
 ## ControlBox
