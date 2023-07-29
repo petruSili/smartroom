@@ -50,43 +50,35 @@
 <!-- CONTROLBOX -->
 ## ControlBox
 <img align="right" src="Images/ControlBox1.jpg" alt="ControlBox1.jpg" width="250">
-The purpose of this project is light and airflow control of a room the management of 3 devices through manual or automatic control.
+This device is a control panel that lets the user to interact with some of the devices. It has 3 capacitive sensors made with metal plates that function as toggle buttons. On top it has a Rotary Encoder with an integrated switch button. By pushing the button the user can select a device and by rotating the dial a new intensity level can be set for the specified device. At the bottom there is a LED Ring that is programmed to give the user visual feedback on the performed actions. The device is always listening for messages regarding the devices it can control to keeo in sync with their states.
 <br />
 <br />
 <br />
 <br />
 <br />
 <br />
-<br />
-<br />
-<br />
-<br />
-<details>
-  <summary>Details</summary>
+<details align="right">
+  <summary>More</summary>
   <div align="center">
     <img src="Images/ControlBox2.jpg" alt="ControlBox2.jpg" width="600">
-    <p align="center">
-      The purpose of this project is light and airflow control of a room the management of 3 devices through manual or automatic control. 
-    </p> 
   </div>
+  <br />
   <div align="center">
     <img src="Images/ControlBox3.jpg" alt="ControlBox3.jpg" width="600">
-    <p align="center">
-      The purpose of this project is light and airflow control of a room the management of 3 devices through manual or automatic control. 
-    </p> 
   </div>
+  <br /> 
   <div align="center">
     <img src="Images/ControlBox4.jpg" alt="ControlBox4.jpg" width="600">
-    <p align="center">
-      The purpose of this project is light and airflow control of a room the management of 3 devices through manual or automatic control. 
-    </p> 
+    <p align="center"><pre>
+      1. Rotary Encoder KY-040          2. WS2812B 5050 RGB LED Ring
+    </pre></p> 
   </div>
 </details>
 
 <!-- SENSORBOX -->
 ## SensorBox
 <img align="right" src="Images/SensorBox1.jpg" alt="SensorBox1.jpg" width="250">
-The purpose of this project is light and airflow control of a room the management of 3 devices through manual or automatic control.
+This is a simple multisensor that reads the temperature, humidity, light intensity and motion in a room. The data is mainly used by the system when operating in Auto Mode. Temperature and humidity are also shown in the app.
 <br />
 <br />
 <br />
@@ -97,26 +89,21 @@ The purpose of this project is light and airflow control of a room the managemen
 <br />
 <br />
 <br />
-<br />
-<details>
-  <summary>Details</summary>
+<details align="right">
+  <summary>More</summary>
   <div align="center">
     <img src="Images/SensorBox2.jpg" alt="SensorBox2.jpg" width="600">
-    <p align="center">
-      The purpose of this project is light and airflow control of a room the management of 3 devices through manual or automatic control. 
-    </p> 
   </div>
+  <br />
   <div align="center">
     <img src="Images/SensorBox3.jpg" alt="SensorBox3.jpg" width="600">
-    <p align="center">
-      The purpose of this project is light and airflow control of a room the management of 3 devices through manual or automatic control. 
-    </p> 
   </div>
+  <br />
   <div align="center">
     <img src="Images/SensorBox4.jpg" alt="SensorBox4.jpg" width="600">
-    <p align="center">
-      The purpose of this project is light and airflow control of a room the management of 3 devices through manual or automatic control. 
-    </p> 
+    <p align="center"><pre>
+      1. TSL2591       2.PIR AM312      3.Temp/Hum DHT22
+    </pre></p> 
   </div>
 </details>
 
