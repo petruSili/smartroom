@@ -110,7 +110,7 @@ This is a simple multisensor that reads the temperature, humidity, light intensi
 <!-- ARDUINOFAN -->
 ## ArduinoFan
 <img align="right" src="Images/ArduinoFan1.jpg" alt="ArduinoFan1.jpg" width="250">
-The purpose of this project is light and airflow control of a room the management of 3 devices through manual or automatic control.
+The fan is built with a 3-phase BLDC motor salvaged from an old printer. An Electronic Speed Controller(ESC) powered by an external power supply is used to syncronize the three phases and thus controlling the speed. The system Controller(Arduino) communicates with the ESC through the Data pin with PWM.
 <br />
 <br />
 <br />
@@ -122,22 +122,14 @@ The purpose of this project is light and airflow control of a room the managemen
 <br />
 <br />
 <br />
-<br />
-<br />
-<br />
-<details>
-  <summary>Details</summary>
+<details align="right">
+  <summary>More</summary>
   <div align="center">
     <img src="Images/ArduinoFan2.jpg" alt="ArduinoFan2.jpg" width="600">
-    <p align="center">
-      The purpose of this project is light and airflow control of a room the management of 3 devices through manual or automatic control. 
-    </p> 
   </div>
+  <br />
   <div align="center">
     <img src="Images/ArduinoFan3.jpg" alt="ArduinoFan3.jpg" width="600">
-    <p align="center">
-      The purpose of this project is light and airflow control of a room the management of 3 devices through manual or automatic control. 
-    </p> 
   </div>
 </details>
 
