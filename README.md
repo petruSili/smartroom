@@ -136,7 +136,7 @@ The fan is built with a 3-phase BLDC motor salvaged from an old printer. An Elec
 <!-- CONTROLLER -->
 ## Controller
 <img align="right" src="Images/Controller.jpg" alt="Controller.jpg" width="250">
-The purpose of this project is light and airflow control of a room the management of 3 devices through manual or automatic control.
+The Controller 
 <br />
 <br />
 <br />
