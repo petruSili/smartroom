@@ -163,7 +163,7 @@ In terms of hardware the Controller runs on an Arduino Mega 2560 coupled with an
 <!-- MOBILEAPP -->
 ## MobileApp
 <img align="right" src="Images/MobileApp.jpg" alt="MobileApp.jpg" width="250">
-The purpose of this project is light and airflow control of a room the management of 3 devices through manual or automatic control.
+A very simple Android App that shows Temperature, Humidity and the states of the controllable devices. It keeps updated by polling the data from the Controller. Through the app the user can also enable the Auto Mode which when enabled reveals the toggle for the Sleep Mode.
 <br />
 <br />
 <br />
