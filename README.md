@@ -136,16 +136,26 @@ The fan is built with a 3-phase BLDC motor salvaged from an old printer. An Elec
 <!-- CONTROLLER -->
 ## Controller
 <img align="right" src="Images/Controller.jpg" alt="Controller.jpg" width="250">
-The Controller 
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
+The Controller is the heart of the system. Its role is better understood through its interactions with other devices:
+<ul>
+  <li>
+    SensorBox: <br/>
+    keeps track of the temperature, humidity and motion in the room.
+  </li>
+    <li>
+    ControlBox: <br/>
+    answers to update requests from the ControlBox when it first boots up. Also sends it in sleep mode when nobody is home to save power.
+  </li>
+  <li>
+    MobileApp: <br/>
+    the Controller functions as a medium between the app and the rest of the system by implementing an HTTP server. It answers to update requests and forwards the commands     coming from the app.
+  </li>
+  <li>
+    BLE Scanner: <br/>
+    keeps track of user's presence in the house. 
+  </li>
+</ul>
+In terms of hardware the Controller runs on an Arduino Mega 2560 coupled with an Ethernet Shield (W5100 R3).
 <br />
 <br />
 <br />
