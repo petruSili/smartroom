@@ -1,6 +1,6 @@
 <!-- PROJECT LOGO -->
 <div align="center">
-  <img src="Images/Intro.jpg" alt="Logo" height="160" >
+  <a href="https://www.youtube.com/watch?v=8VIFxMETGF0"><img src="Images/Intro.jpg" alt="Logo" width="800"></a>
   <h1 align="center">Smart Room</h1>
   <p align="center">
   A fully local smart home system built with largely available hardware components. It is based on ESP and Arduino platforms.
