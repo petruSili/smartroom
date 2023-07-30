@@ -15,7 +15,8 @@
 <div align="center">
   <img src="Images/Overview.png" alt="Overview" width="600">  
 </div>
-
+<br />
+<br />
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Components</summary>
@@ -27,6 +28,8 @@
     <li><a href="#mobileapp">MobileApp</a></li>
   </ul>
 </details>
+<br />
+<br />
 <p>
   The system manages 3 points of light and the airflow in a room. It has two modes of operation: 
 </p> 
